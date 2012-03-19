@@ -1,0 +1,86 @@
+@CHARSET "ISO-8859-1";
+
+
+/***********Profile Thumbnail************/
+
+#profileGlimpse{
+	width:300px;
+	height:190px;
+	margin-right:10px;
+	margin-left:5px;
+	padding:5px;
+	float:left;
+	color:#f2f2f2;
+}
+
+#profilePic{
+	width:144px;
+	height:144px;
+	margin: 20px 0;
+	float:left;
+	border:solid 3px #f2f2f2;
+}
+
+#profilePic img{
+	width:144px;
+	height:144px;
+}
+
+#profileInfo{
+	width:135px;
+	height:140px;
+	margin: 20px 0 20px 5px;
+	padding:5px;
+	float:right;
+	
+}
+
+#profileInfo span{
+	font-size:small;
+}
+
+#profileInfo strong{
+	font-size:large;
+}
+
+/*******Friend Profile *******************/
+
+.friendBox{
+	width:300px;
+	height:190px;
+	margin-right:10px;
+	margin-left:5px;
+	padding:5px;
+	float:left;
+	color:#393E40;
+}
+
+.friendProfilePic{
+	width:144px;
+	height:144px;
+	margin: 20px 0;
+	float:left;
+	border:solid 3px #f2f2f2;
+}
+
+.friendProfilePic img{
+	width:144px;
+	height:144px;
+}
+
+.friendProfileInfo{
+	width:135px;
+	height:140px;
+	margin: 20px 0 20px 5px;
+	padding:5px;
+	float:right;
+	
+}
+
+.friendProfileInfo span{
+	font-size:small;
+}
+
+.friendProfileInfo strong{
+	font-size:large;
+}

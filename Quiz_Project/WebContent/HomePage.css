@@ -1,0 +1,113 @@
+@CHARSET "UTF-8";
+
+#profileGlimpse{
+	color: white;
+	width: 33%;
+}
+
+#profilePic{
+	width:144px;
+	height:144px;
+	margin: 20px 0;
+	float:left;
+	border:solid 3px #f2f2f2;
+}
+
+/***********Profile CSS*************/
+#profilePic img{
+	width:144px;
+	height:144px;
+}
+
+#profileInfo{
+	width:150px;
+	height:140px;
+	margin: 20px 0 20px 5px;
+	padding:5px;
+	float:left;
+}
+
+#profileInfo span{
+	font-size:small;
+}
+#profileInfo strong{
+	font-size:large;
+}
+
+#friendButton:HOVER{
+	background-color: #7DC1FF;
+}
+
+img.imageClass{
+	width: 120px;
+	height: 150px;
+}
+
+#profileInfo button{
+	clear: both;
+	float: left;
+}
+	
+.leftAligned{
+	float: left;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+img.achievementImageOpaque{
+	width: 50px;
+	height: 50px;
+	opacity: 0.2;
+}
+
+img.achievementImageNotOpaque{
+	width: 50px;
+	height: 50px;
+	opacity: 1;
+}
+
+#userAchievements{
+	margin: 20px 0;
+	margin-right:5px;
+	padding:8px;
+	float:right;
+	color:#f2f2f2;
+	/*background-color:#f2f2f2;
+	border:1px solid #f2f2f2;*/
+}
+
+.clear{
+	clear: both;
+}
+
+#quizzes{
+	float: right;
+	width: 33%;
+	height: 400px;
+	padding-left: 10px;
+}
+
+#friends{
+	width: 67%;
+	clear: left;
+	height: 400px;
+	padding-left: 10px;
+}
+
+#friends a{
+	color: #393E40;
+	padding-left: 5px;
+	height: 40px;
+}
+
+img.friendsPic{
+	width: 40px;
+	height: 40px;
+	border: 1px solid grey;
+}
+
+.hide{
+	display: none;
+}
+
+

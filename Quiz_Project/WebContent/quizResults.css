@@ -1,0 +1,37 @@
+@CHARSET "ISO-8859-1";
+
+#likesResult{
+	padding: 0 10px;
+	padding-top: 8px;
+	height:22px;
+	float:right;
+	margin-top:8px;
+	color:#F2F2F2;
+	background-color:#25557F;
+	border:none;
+	font-size:small;
+	font-family: 'Gentium Book Basic', serif;	
+}
+
+#likesButton{
+	background-color: green;
+}
+
+#dislikesButton{
+	background-color: red;
+}
+
+#challengeFriend{
+	float:left;
+}
+
+.friendsContainer{
+	border: 4px solid #F0F0F0;
+    height: 350px;
+    padding: 10px;
+    overflow: auto;
+}
+
+.friendsContainer a{
+	padding-left: 5px;
+}

@@ -1,0 +1,86 @@
+@CHARSET "ISO-8859-1";
+
+#quizzes{
+	width:100%;
+}
+
+.quizRow{
+	width:100%;
+	height:20px;
+	clear:both;
+}
+
+.quizRow a{
+	color:black;
+}
+
+.quizRow:hover{
+	background-color:#88CFE6;
+	cursor:pointer;		
+}
+
+.quizID{
+	float:left;
+}
+
+.quizTitle{
+	margin-left:10px;
+	float:left;
+}
+
+.quizRowClickable{
+	width:80%;
+	height:20px;
+	float:left;
+}
+
+.quizDelete{
+	float:right;
+}
+
+.quizReset{
+	float:right;
+	margin-right:10px;
+}
+
+#descriptionContainer{
+	float:left;
+	width:30%;
+	color:#f2f2f2;
+}
+
+#categoryIconsContainer{
+	float:left;
+	width:70%;
+}
+
+#topCategories{
+	float:top;
+	width:100%;
+	height:50%;
+}
+
+#bottomCategories{
+	float:bottom;
+	width:100%;
+	height:50%;
+}
+
+.iconSegment{
+	float:left;
+	margin-left:5px;
+}
+
+.iconSegment:hover{
+	cursor:pointer;
+	background-color:#33CCFF;
+}
+
+.iconSegment p{
+	color:white;
+}
+
+.iconSegment img{
+	width:100px;
+	height:80px;
+}

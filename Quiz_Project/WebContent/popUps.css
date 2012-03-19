@@ -1,0 +1,45 @@
+@CHARSET "ISO-8859-1";
+
+#dimmedOverlay{
+	width:100%;
+	height:100%;
+	position:absolute;
+	top:0;
+	left:0;
+	z-index:10001;
+	opacity:0.4;
+	background-color:black;	
+}
+
+#popUpWrapper{
+	width:100%;
+	height:100%;
+	position:absolute;
+	top:0;
+	left:0;
+	z-index:10002;
+}
+
+#popUpContent{
+	width:600px;
+	height:450px;
+	margin:150px auto;
+	padding: 10px;
+	background-color:#25557F;
+	border: 3px #F2F2F2 solid;
+	color: #F2F2F2;
+	position:relative;
+}
+
+#popUpCancel{
+	width:20px;
+	height:20px;
+	float:right;	
+	background:url("WhiteX.png") no-repeat center center;
+}
+
+#popUpCancel:hover{
+	/*background-color:#5091CC;*/
+	background:url("GrayX.png") no-repeat center center;
+	cursor:pointer;
+}

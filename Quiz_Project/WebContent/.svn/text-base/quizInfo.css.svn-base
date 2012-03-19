@@ -1,0 +1,125 @@
+@CHARSET "ISO-8859-1";
+
+/***********Header**********/
+#header{
+	color:#f2f2f2;	
+	position:relative;
+}
+
+#title{
+	font-size:xx-large;
+}
+
+#likeDislikeButtons{
+	float:none;
+}
+
+#likesResult{
+	float:right;	
+}
+
+#likesResult{
+	padding: 0 10px;
+	padding-top: 8px;
+	height:22px;
+	float:right;
+	margin-top:8px;
+	color:#F2F2F2;
+	background-color:#25557F;
+	border:none;
+	font-size:small;
+	font-family: 'Gentium Book Basic', serif;	
+}
+
+#likesDislikes{
+	width:300px;;
+	height:10px;
+	margin-bottom:4px;
+	border:1px solid #f2f2f2;
+}
+
+#likes{
+	height:10px;
+	float:left;
+	background-color:green;
+}
+
+#dislikes{
+	height:10px;
+	float:right;
+	background-color:red;
+}
+
+#variableButtons{
+	float:right;
+	position:absolute;
+	top:0;
+	right:0;
+}
+
+#variableButtons button:hover{	
+}
+
+/***********Stats************/
+#stats{
+	color:#393E40;
+}
+
+#stats ul{
+	list-style:none;
+	padding:0;	
+}
+
+#stats a{
+	color:#393E40;
+}
+
+.statsContainer{
+	width:232px;
+	height:300px;
+	margin-right:10px;
+	float:left;
+	overflow:auto;
+	background-color:#DEDEDE;
+}
+
+.last{
+	margin-right:0;
+}
+
+.tpFilter{
+	padding:3px 5px;
+	color:#f2f2f2;
+	background-color:#393E40;
+}
+
+.active{
+	background-color:#5091CC;
+}
+
+.tpFilter:hover{
+	background-color:#88CFE6;
+	cursor:pointer;
+}
+
+/***********Actions*********/
+#actions{
+	position:absolute;
+	bottom:0;
+	float:none;
+	text-align:center;
+}
+
+#actions button{
+	float: none;
+	width:460px;
+	height:50px; 
+}
+
+#takeButton{
+}
+
+#practiceButton{
+	margin-left: 20px;
+}
+

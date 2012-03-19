@@ -1,0 +1,139 @@
+@CHARSET "ISO-8859-1";
+
+#users{
+	width:100%;
+}
+
+#quizzes{
+	width:100%;
+}
+
+#reportedQuizzes{
+	width:100%;
+}
+
+#announcements{
+	width:100%;
+}
+
+/*************Site Statisctics Feed****************/
+#siteStatisticsContainer{
+	float:left;
+	width:30%;
+	height:100%;
+	color:#f2f2f2;	
+}
+
+/*************Announcement Feed****************/
+#announcementsContainer{
+	float:left;
+	width:70%;
+	height:100%;
+	color:#f2f2f2;	
+}
+
+#announcementsContainer h2{
+	height:30px;
+	margin-left:8px;
+}
+
+#announcementsFeed{
+	height:154px;
+	padding:8px;
+	padding-top:0;
+	overflow:auto;
+}
+
+/*************Admin Controls****************/
+
+#controlBar{
+	clear:both;
+}
+
+#controlBar button{
+	float:left;
+	margin-right:10px;
+}
+
+.content{
+	clear:both;
+	float:left;
+}
+
+/*************User Administration************/
+
+.userRow{
+	width:100%;
+	height:20px;
+	clear:both;
+}
+
+.userRow a{
+	color:black;
+}
+
+.userRow:hover{
+	background-color:#88CFE6;	
+}
+
+.userID{
+	float:left;
+}
+
+.userIsAdmin{
+	margin-left:10px;
+	float:left;
+}
+
+.userDelete{
+	float:right;
+}
+
+.userPromote{
+	float:right;
+	margin-right:10px;
+}
+
+/*************Quiz Administration************/
+
+.quizRow{
+	width:100%;
+	height:20px;
+	clear:both;
+}
+
+.quizRow a{
+	color:black;
+}
+
+.quizRow:hover{
+	background-color:#88CFE6;	
+}
+
+.quizID{
+	float:left;
+}
+
+.quizTitle{
+	margin-left:10px;
+	float:left;
+}
+
+.quizDelete{
+	float:right;
+}
+
+.quizReset{
+	float:right;
+	margin-right:10px;
+}
+
+.quizRowClickable{
+	width:80%;
+	height:20px;
+	float:left;
+}
+
+.quizRowClickable:hover{
+	cursor:pointer;
+}

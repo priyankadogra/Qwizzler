@@ -1,0 +1,262 @@
+@CHARSET "ISO-8859-1";
+@import url(http://fonts.googleapis.com/css?family=Gentium+Book+Basic:400,700);
+@import url("popUps.css");
+
+*{
+	margin:0;
+}
+
+*:focus{
+	outline:none;
+}
+
+body{
+	font-family: 'Gentium Book Basic', serif;
+	background-color:#F2F2F2;
+}
+
+a{
+	color:#f2f2f2;
+}
+
+a:visited{
+	color:#f2f2f2;
+}
+
+#blueBar{
+	width:100%;
+	height:200px;
+	z-index:0;
+	padding: 5px 0;
+	background-color:#5091CC;
+	position:relative;
+}
+
+#mainContent{
+	width:100%;
+	height:600px;
+	padding:15px 0;
+	color:#393E40;
+}
+
+#bigLogo{
+	height:200px;
+	clear: both;
+	background:url("GrayQwizzlerLogo - Large.png") no-repeat center center;
+	margin: 0;
+}
+
+.centerer{
+	width: 960px;
+	height:100%;
+	margin: auto;
+	z-index:1000;
+}
+
+.shadowed{
+	box-shadow: 0 0 15px #393E40;
+}
+
+.shadowed-inner{
+	box-shadow: 0 0 5px #393E40 inset;
+}
+
+button{
+	padding: 5px 10px;
+	height:30px;
+	float:right;
+	margin-top:8px;
+	color:#F2F2F2;
+	background-color:#25557F;
+	border:none;
+	font-family: 'Gentium Book Basic', serif;
+}
+
+button:hover{
+	background-color:#5091CC;
+	cursor:pointer;
+}
+
+#blueBar button:hover{
+	/*background-color:#3673A8;*/
+	background-color:#f2f2f2;
+	color:black;
+	box-shadow: 0 0 5px #393E40 inset;
+	border:1px solid #f2f2f2;
+}
+
+fieldset{
+	border:none;
+	padding:0;
+}
+
+input{
+	/*width:100%;*/
+	border:1px solid #C0C0C0;
+	background-color:#F2F2F2;
+	color:#393E40;
+	margin-bottom: 5px;
+}
+
+input:hover{
+	border:1px solid #393E40;
+}
+
+textarea{
+	border:1px solid #C0C0C0;
+	background-color:#f2f2f2;
+	width: 100%;
+	color:#393E40;
+	resize:none;	
+}
+
+#settingsDiv{
+	width: 260px;
+	float: right;
+	height: 60px;
+}
+
+/******************TopBar CSS********************/
+
+
+#topBar{
+	width:100%;
+	height:60px;
+	z-index:10000;
+	padding:2px 0;
+	background-color:#25557F;
+}
+
+#smallLogo{
+	width:260px;
+	height:60px;
+	float:left;
+	background:url("BlueQwizzlerLogo - Small.png") no-repeat center center;
+}
+
+#smallLogo:hover{
+	background-color:#3870A1;
+	cursor:pointer;
+}
+
+#settingsGear{
+	width:60px;
+	height:60px;
+	float:right;
+	z-index:10002;
+	background:url("icon_settings.png") no-repeat center center;
+}
+
+#settingsGear:hover{
+	background-color:#3870A1;
+	cursor:pointer;
+}
+
+#settingsBox{
+	display:none;
+	width:100px;
+	padding:8px;
+	z-index:10001;
+	background-color:#25557F;
+	position: relative;
+	top:62px;
+	left:-56px;
+	text-align:right;
+}
+
+#settingsBox a{
+	width:100px;
+	clear:both;
+	float:right;
+}
+
+#mailIcon{
+	width:60px;
+	height:60px;
+	float:right;
+	z-index:10002;
+	position:relative;
+	background:url("icon-mail.png") no-repeat center center;
+}
+
+#mailIcon:hover{
+	background-color:#3870A1;
+	cursor:pointer;
+}
+
+#mailIcon span{
+	top:30px;
+	left:35px;
+	position:absolute;
+	width:18px;
+	height:18px;
+	text-align:center;
+	color:#f2f2f2;
+	background-color:#5091CC;
+}
+
+#friendsIcon{
+	width:60px;
+	height:60px;
+	float:right;
+	z-index:10002;
+	background:url("friends_icon.png") no-repeat center center;
+}
+
+#friendsIcon:hover{
+	background-color:#3870A1;
+	cursor:pointer;
+}
+
+#topBarLinks{
+	
+}
+
+.quizLink{
+	width:100px;
+	height:60px;
+	float: left;
+	margin-left:50px;
+	text-align:center;
+	position:relative;
+	color:#f2f2f2;
+}
+
+.quizLink:hover {
+	background-color:#3870A1;
+	cursor:pointer;
+}
+
+.quizLink span{
+	text-decoration:none;
+	position:absolute;
+	top:34%;
+	left:8px;
+}
+
+/**********Settings**************/
+
+#settingsContainer div{
+	margin-top:5px;
+}
+
+#settingsContainer div label{
+	width:100%;
+	clear:both;
+}
+
+#settingsContainer div input{
+	width:89%;
+	float:left;
+}
+
+#settingsContainer div button{
+	margin-top:-5px;
+	width:10%;
+	float:right;
+}
+
+#radioButtonsDiv input {
+	width:15px;
+	float:left;
+}

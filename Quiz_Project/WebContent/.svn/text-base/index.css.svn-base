@@ -1,0 +1,212 @@
+@CHARSET "ISO-8859-1";
+
+#mainContent a {
+	color:#393E40;
+}
+
+#profileGlimpse{
+	width:300px;
+	height:190px;
+	margin-right:10px;
+	margin-left:5px;
+	padding:5px;
+	float:left;
+	color:#f2f2f2;
+}
+
+#announcementsContainer{
+	width:612px;
+	height:200px;
+	float:right;
+	color:#f2f2f2;	
+}
+
+#announcementsContainer h2{
+	height:30px;
+	margin-left:8px;
+}
+
+#announcementsFeed{
+	height:154px;
+	padding:8px;
+	padding-top:0;
+	overflow:auto;
+}
+
+#leftBar{
+	width:630px;
+	height:600px;;
+	margin-right:10px;
+	float:left;
+}
+
+#recentlyCreatedQuizzes{
+	width:294px;
+	height:600px;
+	float:right;
+	padding: 0 8px;
+	overflow-y: auto;
+	background-color:#DEDEDE;
+}
+
+#createdQuizDashboard{
+	width:614px;
+	height:220px;
+	margin-bottom:10px;
+	padding: 0 8px;
+	color:#393E40;
+	overflow: auto;
+	background-color:#DEDEDE;
+}
+
+#socialLists{
+	width:630px;
+	height:370px;
+}
+
+#popularQuizzes{
+	width:294px;
+	height:370px;
+	float:left;
+	margin-right:5px;
+	padding: 0 8px;
+	overflow-y: auto;
+	background-color:#DEDEDE;
+}
+
+#friendsQuizActivities{
+	width:294px;
+	height:370px;
+	float:right;
+	margin-left:5px;
+	padding: 0 8px;
+	overflow-y: auto;
+	background-color:#DEDEDE;
+}
+
+#topPart{
+	width:100%;
+	height:600px;
+	clear:both;
+	padding: 0 5px;
+}
+
+#performances{
+	width:100%;
+	height:200px;
+	padding: 0 5px;
+	margin-top: 10px;
+	margin-bottom:20px;
+}
+
+#myPerformance{
+	width:475px;
+	height:200px;
+	margin-right:10px;
+	float:left;
+	overflow: auto;
+	background-color:#DEDEDE;
+}
+
+#friendsPerformance{
+	width:475px;
+	height:200px;
+	float:left;
+	overflow: auto;
+	background-color:#DEDEDE;
+}
+
+/***********Profile Thumbnail************/
+
+#profilePic{
+	width:144px;
+	height:144px;
+	margin: 20px 0;
+	float:left;
+	border:solid 3px #f2f2f2;
+}
+
+#profilePic img{
+	width:144px;
+	height:144px;
+}
+
+#profileInfo{
+	width:135px;
+	height:140px;
+	margin: 20px 0 20px 5px;
+	padding:5px;
+	float:right;
+	
+}
+
+#profileInfo span{
+	font-size:small;
+}
+
+#profileInfo strong{
+	font-size:large;
+}
+
+/***********My Quizzes Dashboard************/
+
+.quizRow{
+	width:100%;
+	height:20px;
+	clear:both;
+}
+
+.quizRow:hover{
+	background-color:#88CFE6;
+	cursor:pointer;
+}
+
+.quizRowName{
+	width:80%;
+	float:left;
+}
+
+.quizRowName a{
+	color: #393E40;
+}
+
+.quizRowEdit{
+	width:10%;
+	float:left;
+	text-align:right;
+}
+
+.quizRowDelete{
+	width:10%;
+	float:left;	
+	text-align:right;
+}
+
+/***********Announcement Feed************/
+
+.announceRow{
+	width:100%;
+	clear:both;
+}
+
+.announceRowInfo{
+	width:100%;
+	clear:both;
+}
+
+.announceRowUser{
+	
+}
+
+.announceRowTime{
+	
+}
+
+.announceRowText{
+	width:100%;
+	float:left;
+}
+
+
+
+

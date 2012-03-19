@@ -1,0 +1,145 @@
+@CHARSET "ISO-8859-1";
+
+/***********Header**********/
+#header{
+	color:#f2f2f2;	
+	position:relative;
+	height:100%;
+}
+
+#title{
+	font-size:xx-large;
+}
+
+#startButtonDiv{
+	width:100%;
+	text-align:center;
+	
+}
+
+#startButton{
+	width:500px;
+	height:40px;
+	float:none;
+	position:absolute;
+	left: 230px;
+	bottom:0;
+}
+
+#timer{
+	width:100%;
+	position:absolute;
+	left: 0;
+	bottom:0;
+	font-size:100px;
+	text-align:center;
+	color:#f2f2f2;
+	background-color:transparent;
+	border:none;
+	font-family: 'Orbitron', sans-serif;
+}
+
+/*********Quiz***************/
+
+#quizQuestions{
+}
+
+.questionOuterContainer{
+	width:500px;
+	min-height: 44px;
+	padding: 8px;
+	margin:10px auto;
+	position:relative;
+	background-color:#DEDEDE;
+}
+
+.questionContainer{
+	/*width:500px;
+	padding: 8px;
+	margin:10px auto;
+	position:relative;
+	background-color:#DEDEDE;*/
+}
+
+.questionButtonDiv{
+	text-align:right;
+}
+
+.questionButtonDiv button{
+	float:none;
+	margin-top:-30px;
+}
+
+.answerContainer{
+	width:100%;
+	text-align:left;
+	overflow:hidden;
+}
+
+.answerRow{
+	width:100%;
+	height:20px;
+}
+
+.radioButtonAnswer {
+	width:20px;
+	float: left;
+}
+
+.leftAnswersM{
+	width:50%;
+	float:left;
+}
+
+.rightAnswersM{
+	width:50%;
+	float:right;
+}
+
+.answerRowMatch:hover{
+	cursor:pointer;
+}
+
+.questionAnswers{
+	width:200px;
+	min-height: 0px;
+	padding-top:4px;
+	position: absolute;
+	top:0;
+	right:-205px;
+	background-color:#DEDEDE;
+	text-align:left;
+}
+
+.questionTimerContainer{
+	width:110px;
+	height: 40px;
+	padding-top:4px;
+	position: absolute;
+	top:0;
+	left:-115px;
+	background-color:#DEDEDE;
+	text-align:center;
+}
+
+.questionTimerContainer button{
+	float:none;
+	margin-top:-5px;
+}
+
+.questionTimer{
+	width:100%;
+	margin-top:8px;
+	background-color:transparent;
+	border:none;
+	font-family: 'Orbitron', sans-serif;
+}
+
+.timerValue{
+	width:100%;
+	text-align:center;
+}
+
+.timerValue span {
+	font-family: 'Orbitron', sans-serif;
+}

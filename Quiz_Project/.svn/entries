@@ -1,0 +1,86 @@
+10
+
+dir
+125
+https://subversion.assembla.com/svn/quizproject/Quiz_Project
+https://subversion.assembla.com/svn/quizproject
+
+
+
+2012-03-17T03:42:17.434035Z
+125
+soheiln88
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+69d8080a-8ea9-46ff-80fa-54edaa57be27
+
+.classpath
+file
+
+
+
+
+2012-03-19T03:36:45.433000Z
+b22023cd773dc76784f24288673d920a
+2012-03-17T02:52:20.507758Z
+121
+drock07
+
+.project
+file
+
+
+
+
+2012-03-19T03:36:45.428000Z
+b64ba89661fc8e1dc6d08d9309c159c4
+2012-02-25T18:14:00.284484Z
+3
+soheiln88
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1009
+
+.settings
+dir
+
+WebContent
+dir
+
+build
+dir
+
+src
+dir
+
